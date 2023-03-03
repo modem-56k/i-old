@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Old Photos - Bookshop</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Old Photos</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="2007.html">2007</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="2007-0408.html">0408</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="2007-0408-Bookshop.html">Bookshop</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+      </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+          
+            <li data-src="media/large/2007/0408/Bookshop/2019-09-17%2008-31-24.jpg"
+                data-sub-html=""
+                data-download-url="media/original/2007/0408/Bookshop/2019-09-17%2008-31-24.jpg"
+                
+                data-filename="2019-09-17 08-31-24.jpg"
+          
+              >
+              <a href="media/original/2007/0408/Bookshop/2019-09-17%2008-31-24.jpg">
+                <img src="media/thumbs/2007/0408/Bookshop/2019-09-17%2008-31-24.jpg"
+                     width="120"
+                     height="120"
+                     alt="2019-09-17 08-31-24.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/2007/0408/Bookshop/2019-09-17%2008-31-28.jpg"
+                data-sub-html=""
+                data-download-url="media/original/2007/0408/Bookshop/2019-09-17%2008-31-28.jpg"
+                
+                data-filename="2019-09-17 08-31-28.jpg"
+          
+              >
+              <a href="media/original/2007/0408/Bookshop/2019-09-17%2008-31-28.jpg">
+                <img src="media/thumbs/2007/0408/Bookshop/2019-09-17%2008-31-28.jpg"
+                     width="120"
+                     height="120"
+                     alt="2019-09-17 08-31-28.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/2007/0408/Bookshop/2019-09-17%2008-32-34.jpg"
+                data-sub-html=""
+                data-download-url="media/original/2007/0408/Bookshop/2019-09-17%2008-32-34.jpg"
+                
+                data-filename="2019-09-17 08-32-34.jpg"
+          
+              >
+              <a href="media/original/2007/0408/Bookshop/2019-09-17%2008-32-34.jpg">
+                <img src="media/thumbs/2007/0408/Bookshop/2019-09-17%2008-32-34.jpg"
+                     width="120"
+                     height="120"
+                     alt="2019-09-17 08-32-34.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/2007/0408/Bookshop/2019-09-17%2008-32-50.jpg"
+                data-sub-html=""
+                data-download-url="media/original/2007/0408/Bookshop/2019-09-17%2008-32-50.jpg"
+                
+                data-filename="2019-09-17 08-32-50.jpg"
+          
+              >
+              <a href="media/original/2007/0408/Bookshop/2019-09-17%2008-32-50.jpg">
+                <img src="media/thumbs/2007/0408/Bookshop/2019-09-17%2008-32-50.jpg"
+                     width="120"
+                     height="120"
+                     alt="2019-09-17 08-32-50.jpg" />
+              </a>
+            </li>  </ul>
+    
+      <!--
+        Pagination
+      -->
+    
+      <!--
+        Zip file link
+      -->
+    
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>©2023 Li Shuhang https://lishuhang.me/</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>

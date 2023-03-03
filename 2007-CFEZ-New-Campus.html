@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Old Photos - CFEZ New Campus</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Old Photos</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="2007.html">2007</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="2007-CFEZ-New-Campus.html">CFEZ New Campus</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+    <a href="2007-CFEZ-New-Campus-Campus.html" style="background-image: url('media/small/2007/CFEZ%20New%20Campus/Campus/20190917-01.jpg')">
+            <div class="info">
+              <h3>Campus</h3>
+              <div class="summary">21 photos</div>
+              <div class="date">21 Jun 2010 - 15 Jun 2013</div>
+            </div>
+          </a><a href="2007-CFEZ-New-Campus-Classmates.html" style="background-image: url('media/small/2007/CFEZ%20New%20Campus/Classmates/2019-09-17%2008-20-12.jpg')">
+            <div class="info">
+              <h3>Classmates</h3>
+              <div class="summary">8 photos</div>
+              <div class="date">15 Jun 2013 - 15 Jun 2013</div>
+            </div>
+          </a><a href="2007-CFEZ-New-Campus-Classroom.html" style="background-image: url('media/small/2007/CFEZ%20New%20Campus/Classroom/2019-09-17%2008-16-34.jpg')">
+            <div class="info">
+              <h3>Classroom</h3>
+              <div class="summary">10 photos</div>
+              <div class="date">15 Jun 2013 - 15 Jun 2013</div>
+            </div>
+          </a><a href="2007-CFEZ-New-Campus-Snow-in-campus.html" style="background-image: url('media/small/2007/CFEZ%20New%20Campus/Snow%20in%20campus/2019-09-17%2008-18-24.jpg')">
+            <div class="info">
+              <h3>Snow in campus</h3>
+              <div class="summary">19 photos</div>
+              <div class="date">15 Jun 2013 - 15 Jun 2013</div>
+            </div>
+          </a><a href="2007-CFEZ-New-Campus-inside-the-buildings.html" style="background-image: url('media/small/2007/CFEZ%20New%20Campus/inside%20the%20buildings/2019-09-17%2008-12-36.jpg')">
+            <div class="info">
+              <h3>inside the buildings</h3>
+              <div class="summary">17 photos</div>
+              <div class="date">15 Jun 2013 - 15 Jun 2013</div>
+            </div>
+          </a>  </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+      </ul>
+    
+      <!--
+        Pagination
+      -->
+    
+      <!--
+        Zip file link
+      -->
+    
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>©2023 Li Shuhang https://lishuhang.me/</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
